@@ -1,4 +1,4 @@
-function iniciarSesion() {
+function iniciarSesion() { //.
     const usuarioPredefinido = "admin";
     const contrasenaPredefinida = "1234";
     let intentos = 3;
@@ -32,15 +32,15 @@ function controlProduccion() {
         } else if (unidadesProducidas >= 50 && unidadesProducidas <= 100) {
             const ganancia = unidadesProducidas * 0.05;
             gananciasTotales += ganancia;
-            console.log("Día " + i + ": Ganancia del 5%. Ganancia: $" + ganancia);
+            console.log("Día " + i + ": Ganancia del 5%. Ganancia: " + ganancia);
         } else {
             const ganancia = unidadesProducidas * 0.10;
             gananciasTotales += ganancia;
-            console.log("Día " + i + ": Ganancia del 10%. Ganancia: $" + ganancia);
+            console.log("Día " + i + ": Ganancia del 10%. Ganancia: " + ganancia);
         }
     }
 
-    console.log("Ganancia total en " + dias + " días: $" + gananciasTotales);
+    console.log("Ganancia total en " + dias + " días: " + gananciasTotales);
 }
 
 
