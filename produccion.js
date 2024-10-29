@@ -1,4 +1,4 @@
-function iniciarSesion() { //
+function iniciarSesion() { 
     const usuarioPredefinido = "admin";
     const contrasenaPredefinida = "1234";
     let intentos = 3;
